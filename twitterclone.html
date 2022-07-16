@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Twitter Parody</title>
+    </head>
+
+
+
+
+    <body>
+    <div class="main-cover">
+
+
+
+
+        <div id="LogoTab">
+
+            <div>
+                <p class="Cancel-Button">X</p>
+            </div>
+
+            <div id="TW-Logo">
+                <img  id="birdly-bird" src="images/Twitter-logo.svg.png">
+            </div>
+
+        </div>
+
+
+        <br> <br> <br>
+<!--                   
+        <div id="tw-body">
+-->
+            <div id="SIT">
+                <p>Sign in to Twitter</p>
+            </div>
+
+            <div class="div-button">
+                <button class="GAB"> 
+                    <div class="SN-images"><img class="SN-images" src="images/Google__G__Logo.svg"></div> 
+                    <div class="button-text"> Continue with Google </div>
+                </button>
+            </div>
+
+            <br>
+            
+            <div class="div-button">
+                <button class="GAB"> 
+                    <div class="SN-images"><img class="SN-images-apple" src="images/apple-logo-E3DBF3AE34-seeklogo.com.png"></div> 
+                    <div class="button-text"> Continue with Apple </div>
+                </button>
+            </div>
+<!--        
+        </div>
+-->
+
+        <br>
+
+        <hr class="line-break">
+        <div>
+            <p class="OR-line">or</p>
+        </div>
+
+        <div id="textboxx-div">
+            <input id="textboxx" textbox="" placeholder="Phone, email, or username">
+        </div>
+        
+
+
+
+        <div id="tw-body2">
+            <div class="div-button">
+                <button class="GAB2">Next</button>
+            </div>
+
+            <br>
+            
+            <div class="div-button">
+                <button class="GAB3">Forgot password?</button>
+            </div>
+            
+        </div>
+
+
+        <br><br><br>
+
+        <div class="sign-up">
+            <p> <div id="WhiteSignUp">Don't have an account?</div> <div id="BlueSignUp">Sign up</div></p>
+        </div>
+
+
+
+
+
+    </div>
+    </body>
+
+
+
+
+
+    <!--MY CSS-->
+    <style type='text/css'>
+        @import url('https://fonts.googleapis.com/css?family=Rubik+Moonrocks&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Mulish&display=swap');
+
+        .main-cover{
+            margin: auto;
+            background-color:rgb(0, 0, 0);
+            width: 600px;
+            border-radius: 4mm;
+            padding: 10px;
+            padding-bottom:3cm;
+            margin-top:1cm;
+            margin-bottom:1cm;
+        }
+
+
+
+
+        #BlueSignUp{
+            color:#26a7de;
+            margin-left:3px;
+        }
+
+        #BlueSignUp:hover{
+            cursor:pointer;
+            text-decoration: underline;
+        }
+
+        .WhiteSignUp{
+            color:white;
+        }
+
+        .sign-up{
+            color:rgba(138, 138, 138, 0.507);
+            margin-left:-100px;
+            justify-content: center;
+            display:flex
+        }
+
+        .SN-images{
+            max-width: 25%;
+            max-height: 25%;
+            vertical-align:middle;
+            padding-top: 4px;
+        }
+
+        .SN-images-apple{
+            max-width: 25%;
+            max-height: 25%;
+            vertical-align:middle;
+            padding-top: 3px;
+        }
+
+        #textboxx-div{
+            display:flex;
+            justify-content: center;
+        }
+
+        #textboxx{
+            border-radius: 5px;
+            color:rgba(255, 255, 255, 0.947);
+            background-color:#000000;
+            border-color: rgba(240, 248, 255, 0.223);
+            font-size:18px;
+            font-family: Oswald;
+            border-width: 0.01px;
+            width:300px;
+            height:40px;
+            padding-left:3mm;
+            padding-top:2mm;
+            padding-bottom:2mm;
+            margin-top:-5mm;
+
+        }
+
+        .OR-line{
+            color:white;
+            display:flex;
+            justify-content: center;
+            width:8mm;
+            height:8mm;
+            background-color:rgb(0, 0, 0);
+            position: relative;
+            left: 285px;
+            top:-30px;
+        }
+
+
+        .line-break{
+        height:1px;
+        width:300px;
+        margin-top:5mm;
+        margin-bottom:5mm;
+        border-width:0;
+        color: rgba(240, 248, 255, 0.223);
+        background-color:rgba(240, 248, 255, 0.223);
+        }
+
+        .div-button{
+            display:flex;
+            flex-direction: row;
+            
+            justify-content: center;
+        }
+
+        .button-text{
+            padding-bottom:2mm;
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+
+
+
+
+        .GAB{
+            border-radius: 20px;
+            color:rgb(0, 0, 0);
+            font-size:12px;
+            font-weight: bold;
+            border-width: 0cm;
+            width:300px;
+            height:40px;
+            text-align: center;  
+        }
+
+        .GAB:hover, .GAB2:hover, .GAB3:hover {
+            cursor:pointer;
+        }
+
+        .GAB2{
+            border-radius: 20px;
+            color:rgb(0, 0, 0);
+            font-size:12px;
+            font-weight: bold;
+            border-width: 0cm;
+            width:300px;
+            height:40px;
+            text-align: center;  
+        }
+
+        .GAB3{
+            border-radius: 20px;
+            background-color:#000000;
+            color:rgb(251, 251, 251);
+            font-size:12px;
+            font-weight: bold;
+            border-width: 0.001mm;
+            border-color: rgba(255, 255, 255, 0.266);
+            width:300px;
+            height:40px;
+            text-align: center;  
+        }
+
+        #SIT{
+            color:rgb(255, 255, 255);
+            font-family: Rubik-Moonrocks;
+            font-weight:bold;
+            font-size: 25px;
+            display:flex;
+            justify-content: center;
+            padding-bottom: 10px;
+        }
+
+        .Cancel-Button{
+            display:flex;
+            justify-content: center;
+            width:6mm;
+            height:6mm;
+            border-radius: 3mm;
+            font-family: Mulish;
+            color:white;
+            position: relative;
+            margin-left:-260px;
+            margin-top:5px;
+            display:flex;
+            align-content:center;
+            vertical-align:middle;
+        }
+
+        .Cancel-Button:hover{
+            display:flex;
+            justify-content: center;
+            width:6mm;
+            height:6mm;
+            padding:1mm;
+            border-radius: 4mm;
+            color:white;
+            background-color:#ffffff20;
+            position: relative;
+            margin-left:-260px;
+            margin-top:5px;
+            display:flex;
+            align-content:center;
+            vertical-align:middle;
+            cursor:pointer;
+        }
+
+
+
+
+
+        #birdly-bird{
+            height:1cm;
+            padding:2mm;
+
+        }
+
+        #TW-Logo{
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        #LogoTab{
+            height:1cm;
+            display:flex;
+            flex-direction: row;
+            justify-content:center;
+            margin-top: 5mm;
+        }
+
+        #tw-body{
+            display:flex
+            justify-content: center;
+        }
+
+        #tw-body2{
+            margin-top: 30px;
+            display:flex
+            justify-content: center;
+        }
+
+
+
+        body {
+            background-color:#27333d;
+            margin:0cm;
+       }
+    
+    </style>
+
+
+
+</html>
